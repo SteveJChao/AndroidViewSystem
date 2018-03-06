@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a15616.view_layout.MainActivity">
+
+    <com.example.a15616.view_layout.CustomView
+        android:id="@+id/custom_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="50dp"
+        android:background="@color/colorPrimary">
+    </com.example.a15616.view_layout.CustomView>
+
+    <com.example.a15616.view_layout.CustomView
+        android:id="@+id/custom_view3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#343">
+    </com.example.a15616.view_layout.CustomView>
+
+    <com.example.a15616.view_layout.CustomView2
+        android:layout_margin="20dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#254D66"/>
+
+    <!--<com.example.a15616.view_layout.CustomView3-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:background="#f23" />-->
+
+    <com.example.a15616.view_layout.CustomView4
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="35dp"
+        android:background="#145522"
+        />
+
+    <com.example.a15616.view_layout.CustomView5
+        android:id="@+id/custom_view5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#ab47bc"
+        />
+
+</LinearLayout>
